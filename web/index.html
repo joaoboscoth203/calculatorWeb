@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calc JSP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="div1">
+            <h2>Calculadora</h2>
+            <form action="resultado.jsp" method="get">
+                <label>Valor A: </label> <input type="number" name="valorA">
+                <br>
+                <label>Valor B: </label> <input type="number" name="valorB">
+                <br>
+                <select name="opcao">
+                    <option value="+">(+)</option>
+                    <option value="-">(-)</option>
+                    <option value="*">(*)</option>
+                    <option value="/">(/)</option>
+                </select>
+                <input type="submit" value="Calcular">
+            </form>
+        </div>
+    </body>
+</html>
